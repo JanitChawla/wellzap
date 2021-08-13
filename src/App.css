@@ -1,3 +1,36 @@
 .App {
   text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+.header {
+  font-size: 30px;
+  text-align: left;
+  font-weight:550;
+}
+.circle-g {
+  border: 1px solid green;
+  border-radius: 50%;
+  width: 25px;
+  background-color: green;
+  color: white;
+}
+.circle-y {
+  border: 1px solid yellow;
+  border-radius: 50%;
+  width: 25px;
+  background-color: yellow;
+  color: black;
+}
+.circle-b {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 25px;
+  background-color: black;
+  color: white;
+}
+hr {
+  color: black;
+  background-color: black;
+  width: 46%;
+  height: 0.5px;
 }
