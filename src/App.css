@@ -8,23 +8,29 @@
   font-weight:550;
 }
 .circle-g {
+  height: 25px;
   border: 1px solid green;
   border-radius: 50%;
   width: 25px;
   background-color: green;
   color: white;
+  margin: auto;
 }
 .circle-y {
   border: 1px solid yellow;
+  height: 25px;
   border-radius: 50%;
   width: 25px;
   background-color: yellow;
   color: black;
+  margin: auto;
 }
 .circle-b {
   border: 1px solid black;
+  height: 25px;
   border-radius: 50%;
   width: 25px;
+  margin: auto;
   background-color: black;
   color: white;
 }
@@ -33,4 +39,57 @@ hr {
   background-color: black;
   width: 46%;
   height: 0.5px;
+}
+span {
+  height: 22px;
+}
+.head{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.card {
+  background-color: white;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-left: 20px;
+  justify-items: center;
+  display: flex;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.hed{
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.details {
+  background-color: white;
+  margin-top: 20px;
+  width: 90%;
+  margin-right: 40px;
+  margin-left: 40px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+img {
+  height: 150px;
+  justify-content: left;
+  width: 20vw;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 10px 5px;
+}
+.set {
+  background-color: white;
+}
+
+button {
+  background-color: white;
+  border: 1px solid yellow;
+  border-radius: 10px;
+  width: 15vw;
 }
